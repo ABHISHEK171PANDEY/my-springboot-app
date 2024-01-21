@@ -20,4 +20,4 @@ jobs:
       - name: build java
         run: |
           mvn -v
-          mvn -B package --file simple-springboot-app/pom.xml -DskipTest   
+          mvn -B package --file simple-springboot-app/pom.xml -DskipTests  
