@@ -19,5 +19,3 @@ jobs:
         run: |
           mvn -v
           mvn -B package     
-
-
